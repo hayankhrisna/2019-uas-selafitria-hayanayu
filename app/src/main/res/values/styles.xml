@@ -1,4 +1,4 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -6,8 +6,8 @@
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
         <item name="colorAccent">@color/secondaryColor</item>
-        <item name="android:titleTextColor">@color/primaryDarkColor</item>
-        <item name="android:windowContentTransitions">true</item>
+        <item name="android:titleTextColor" tools:ignore="NewApi">@color/primaryDarkColor</item>
+        <item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>
 
     </style>
 
